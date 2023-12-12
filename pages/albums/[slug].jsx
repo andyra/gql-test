@@ -61,8 +61,6 @@ export async function getStaticProps(context) {
 export default function Album({ album }) {
   if (!album) return <mark>No album!</mark>;
 
-  console.log(album);
-
   return (
     <>
       <Link href="/albums">Back</Link>
